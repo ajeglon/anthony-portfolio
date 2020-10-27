@@ -1,0 +1,174 @@
+.topnavbar a{
+    font-size: 1.5em;
+    color: rgb(184, 179, 179);
+    font-family: 'Alegreya', serif;
+    font-family: 'Alice', serif;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+.index-nav a:hover{
+    color: rgb(231, 154, 231);
+}
+
+.gallery-nav a:hover{
+    color: rgb(169, 221, 120);
+}
+
+.exhibitions-nav a:hover{
+    color: rgb(122, 162, 236);
+}
+
+.about-nav a:hover{
+    color: rgb(240, 240, 119);
+}
+
+.follow-nav a:hover{
+    color: rgb(178, 103, 221);
+}
+
+.experiments-nav a:hover{
+    color: rgb(240, 200, 125);
+}
+
+
+header {
+    background-color: rgb(24, 23, 23);
+    border-bottom: rgb(231, 154, 231) solid 3px;
+    font-size: 1.1em;
+    padding: 10px;
+    text-align: center;
+}
+
+.index-nav{
+    text-align: left;
+}
+
+h1, h2, h3, caption {
+    background-color: rgb(99, 96, 96);
+    color: #ffffff;
+}
+
+h1 {
+    font-size: 1.5em;
+    padding: 5px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 1.25em;
+    padding: 5px;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 1.1em;
+    padding: 5px;
+    font-weight: bold;
+}
+
+footer{
+    background-color: rgb(24, 23, 23);
+    color: rgb(184, 179, 179);
+    padding: 10px;
+    clear: both;
+}
+
+.gallery-tile {
+    background-color: rgb(99, 96, 96);
+    padding: 0;
+}
+
+.gallery-tile p{
+    background-color: rgb(99, 96, 96);
+    text-align: center;
+    color: white;
+    border: white solid 1px;
+    border-radius: 5px;
+    margin-bottom: 0;
+}
+
+
+ .gallery-tile a:hover, .gallery-tile a > p:hover{
+    color: rgb(231, 154, 231);
+    border-radius: rgb(231, 154, 231) solid 100px;
+    border-radius: 5px;
+}
+
+.gallery-background {
+    max-height: 500px;
+    height: 500px;
+    width: 100%;
+    vertical-align: middle;
+    border-radius: 10px;
+}
+
+.gallery-slideshow {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.caption-background {
+    background-color: rgb(99, 96, 96);
+    opacity: 50%;
+    color: white;
+}
+
+.exhibition {
+    padding-left: 1%;
+}
+
+.exhibition-list a:hover, .to-gallery:hover {
+    color: rgb(231, 154, 231);
+}
+
+.exhibition-list a, .to-gallery {
+    color: rgb(99, 96, 96);
+    text-decoration: underline;
+}
+
+.exhibition-poster {
+    max-height: 750px;
+    float: left;
+}
+
+.after-poster-text {
+    clear: both;
+}
+
+.about-image {
+    float: left;
+}
+
+.about-image p {
+    background-color: rgb(99, 96, 96);
+    color: white;
+    text-align: center;
+}
+
+.qualifications{
+    clear: both;
+}
+
+.btn-block-1{
+    width: 100%;
+    background-color: #33004b;
+}
+
+.btn-block-2{
+    width: 100%;
+    background-color: #770b0b;
+}
+
+.btn-block-3{
+    width: 100%;
+    background-color: #0f0666;
+}
+
+.btn-collapse {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
